@@ -61,7 +61,7 @@ Me apasiona la resolución de problemas complejos y contribuir al desarrollo de 
 ### 📊 Mis Estadísticas de GitHub:
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NoeliaIm&theme=radical&hide_border=true" alt="Racha de Commits de GitHub"/>
+  <img src="https://github-readme-streak-stats-seven-mauve.vercel.app?user=NoeliaIm&theme=radical&hide_border=true" alt="Racha de Commits de GitHub"/>
   <br/>
   <img src="https://github-readme-stats.vercel.app/api?username=NoeliaIm&show_icons=true&theme=radical" alt="Estadísticas de GitHub de NoeliaIm"/>
   <br/>
