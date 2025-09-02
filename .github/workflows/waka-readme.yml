@@ -9,7 +9,7 @@ on:
   # Se ejecuta en un horario programado (todos los días a medianoche UTC)
   schedule:
     - cron: '0 0 * * *'
-
+  
 jobs:
   update-readme:
     name: Update Readme with WakaTime Stats
