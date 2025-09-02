@@ -73,7 +73,5 @@ Me apasiona la resolución de problemas complejos y contribuir al desarrollo de 
 ### ⏰ Mi Actividad de Codificación (Datos de WakaTime):
 *(Solo actividad en proyectos personales y de aprendizaje)*
 
-<p align="center">
-<!--START_WAKATIME_STATS-->
-<!--END_WAKATIME_STATS-->
-</p>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
