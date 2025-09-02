@@ -1,0 +1,30 @@
+name: Waka Readme Stats
+
+on:
+  # Se ejecuta al hacer push a la rama main
+  push:
+    branches: [ main ]
+  # También permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
+  # Se ejecuta en un horario programado (todos los días a medianoche UTC)
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    name: Update Readme with WakaTime Stats
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "False" # Puedes ponerlo en "True" si quieres mostrar proyectos
+          SHOW_EDITORS: "True"
+          SHOW_LANGUAGE: "True"
+          SHOW_LINES_OF_CODE: "False" # Para no mostrar líneas de código
+          SHOW_PROFILE_VIEWS: "False" # Para no mostrar las vistas del perfil
+          SHOW_LOC_CHART: "False" # Para no mostrar el gráfico de líneas de código
